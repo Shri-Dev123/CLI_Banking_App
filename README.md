@@ -1,19 +1,41 @@
-Banking Application CLI
+
+# Banking Application CLI
+
 A simple command-line interface banking application built using JavaScript. This application allows users to create an account, deposit and withdraw money from their accounts, and check their account balance.
 
-Features
-Create account
-Deposit amount
-Withdraw amount
-Check account balance
 
-Requirements
-Node.js v14 or higher
-npm
+## Authors
 
-Usage
-Clone the repository:
-git clone https://github.com/<your-github-username>/banking-app-cli.git
+- [@shrikant Kallshetty](https://github.com/Shri-Dev123)
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Features
+
+- Create account
+- Deposit amount
+- Withdraw amount
+- Check account balance
+
+
+## Use the App
+
+To run the App in terminal
+
+```bash
+  node BankingApp.js
+```
+
+
+## Tech Stack
+
+**Server:** Node.js
+
+## Appendix
 
 Change directory:
 
@@ -29,32 +51,35 @@ Create Account
 Create a new account with zero balance.
 
 
-CREATE <name>
+# CREATE <Account>
+
 Example:
+
 CREATE John
 Deposit Amount
 Add the amount to the existing balance of the account.
 
 
-DEPOSIT <account-number> <amount>
+# DEPOSIT <account-number> <amount>
+
 Example:
 DEPOSIT ACC001 10000
 Withdraw Amount
 Reduce the amount from the existing balance of the account.
 
 
-WITHDRAW <account-number> <amount>
+# WITHDRAW <account-number> <amount>
 Example:
 WITHDRAW ACC001 5000
 Show Balance
 Show the current balance of the account along with the account name.
 
 
-BALANCE <account-number>
+# BALANCE <account-number>
 Example:
 BALANCE ACC001
 
-Sample Input/Output
+# Sample Input/Output
 
 Input:
 
@@ -71,5 +96,4 @@ Output:
 
 Jane 14000
 John 5000
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
