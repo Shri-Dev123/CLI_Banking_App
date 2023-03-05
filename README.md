@@ -29,7 +29,8 @@ To run the App in terminal
 ```bash
   node BankingApp.js
 ```
-
+Then write commands in Capital letters for creating accounts and other commands.
+Eg. CREATE SHRIKANT - for creating account
 
 ## Tech Stack
 
